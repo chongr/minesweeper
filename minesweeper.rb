@@ -1,4 +1,3 @@
-require "byebug"
 require "yaml"
 class Minesweeper
 
@@ -39,6 +38,7 @@ class Minesweeper
         tile_pos.flag
       else
         tile_pos.reveal if tile_pos.flagged == false
+        @gameboard.reveal_zeros(pos) if tile_pos.symbol == 0
       end
     end
 
@@ -149,6 +149,34 @@ class Board
 
   def player_display
     @grid.each{|row| p row.map {|pos| pos.show_player}}
+  end
+  
+  def reveal_zeros(pos)
+    row = pos[0]
+    col = pos[1]
+    @grid[row][col].reveal
+    return if @grid[pos[0]][pos[1]].symbol == /[0-9]/
+    
+    adjacent_spots =
+    { left: [row, col - 1],
+      right: [row, col + 1],
+      top: [row + 1, col],
+      bot: [row - 1, col],
+      upL: [row + 1, col - 1],
+      upR: [row + 1, col + 1],
+      botL: [row - 1, col - 1],
+      botR: [row - 1, col + 1]
+    }
+    
+    @grid[row][col].reveal
+    adjacent_spots.values.each do |spot|
+      if spot[0].between?(0, 8) && spot[1].between?(0, 8) && grid[spot[0]][spot[1]].hidden == true
+        @grid[spot[0]][spot[1]].reveal
+        reveal_zeros([spot[0], spot[1]]) if @grid[spot[0]][spot[1]].symbol == 0
+      end
+    end
+    
+      
   end
 end
 

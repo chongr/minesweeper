@@ -11,7 +11,7 @@ class Minesweeper
     end
 
     def playturn
-      @gameboard.display
+      #@gameboard.display
       @gameboard.player_display
       move = @player.get_move
       make_move(move)

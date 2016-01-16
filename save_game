@@ -2,197 +2,225 @@
 numberofbombs: 30
 grid:
 - - !ruby/object:Tile
-    symbol: 1
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 1
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 3
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 1
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 2
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 3
-    flagged: false
-    hidden: true
-- - !ruby/object:Tile
-    symbol: 2
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 4
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 3
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 2
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 3
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-- - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 4
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 2
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 1
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 1
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 3
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 2
-    flagged: false
-    hidden: true
-- - !ruby/object:Tile
-    symbol: 2
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 3
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 2
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 2
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 3
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 4
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 3
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 1
-    flagged: false
-    hidden: true
-- - !ruby/object:Tile
-    symbol: 1
-    flagged: false
-    hidden: false
-  - !ruby/object:Tile
-    symbol: 1
-    flagged: false
-    hidden: false
-  - !ruby/object:Tile
     symbol: 2
     flagged: false
     hidden: false
   - !ruby/object:Tile
     symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 3
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
+    flagged: true
     hidden: true
   - !ruby/object:Tile
     symbol: 2
     flagged: false
     hidden: true
-- - !ruby/object:Tile
-    symbol: 0
+  - !ruby/object:Tile
+    symbol: 1
     flagged: false
-    hidden: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 1
+    flagged: false
+    hidden: true
   - !ruby/object:Tile
     symbol: 0
     flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 2
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 2
+    flagged: false
+    hidden: true
+- - !ruby/object:Tile
+    symbol: :b
+    flagged: true
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 4
+    flagged: false
     hidden: false
+  - !ruby/object:Tile
+    symbol: 4
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 2
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 2
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 5
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 3
+    flagged: false
+    hidden: true
+- - !ruby/object:Tile
+    symbol: 3
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 3
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 3
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 4
+    flagged: false
+    hidden: true
+- - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 4
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 2
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 2
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 4
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 5
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+- - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 2
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 0
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 2
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 3
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 3
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 4
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 4
+    flagged: false
+    hidden: true
+- - !ruby/object:Tile
+    symbol: 1
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 2
+    flagged: false
+    hidden: true
   - !ruby/object:Tile
     symbol: 1
     flagged: false
-    hidden: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 3
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 4
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 4
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+- - !ruby/object:Tile
+    symbol: 1
+    flagged: false
+    hidden: true
   - !ruby/object:Tile
     symbol: 3
     flagged: false
@@ -206,7 +234,11 @@ grid:
     flagged: false
     hidden: true
   - !ruby/object:Tile
-    symbol: 4
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
     flagged: false
     hidden: true
   - !ruby/object:Tile
@@ -217,24 +249,24 @@ grid:
     symbol: :b
     flagged: false
     hidden: true
-- - !ruby/object:Tile
-    symbol: 0
-    flagged: false
-    hidden: false
-  - !ruby/object:Tile
-    symbol: 0
-    flagged: false
-    hidden: false
-  - !ruby/object:Tile
-    symbol: 1
-    flagged: false
-    hidden: false
   - !ruby/object:Tile
     symbol: 4
     flagged: false
     hidden: true
+- - !ruby/object:Tile
+    symbol: 2
+    flagged: false
+    hidden: true
   - !ruby/object:Tile
     symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: 5
     flagged: false
     hidden: true
   - !ruby/object:Tile
@@ -253,75 +285,43 @@ grid:
     symbol: 2
     flagged: false
     hidden: true
-- - !ruby/object:Tile
-    symbol: 0
-    flagged: false
-    hidden: false
   - !ruby/object:Tile
-    symbol: 1
+    symbol: :b
     flagged: false
-    hidden: false
+    hidden: true
+- - !ruby/object:Tile
+    symbol: 2
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
+  - !ruby/object:Tile
+    symbol: :b
+    flagged: false
+    hidden: true
   - !ruby/object:Tile
     symbol: 3
-    flagged: false
-    hidden: false
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
     flagged: false
     hidden: true
   - !ruby/object:Tile
     symbol: 2
     flagged: false
     hidden: true
-- - !ruby/object:Tile
-    symbol: 0
+  - !ruby/object:Tile
+    symbol: :b
     flagged: false
-    hidden: false
+    hidden: true
   - !ruby/object:Tile
     symbol: 1
     flagged: false
-    hidden: false
+    hidden: true
   - !ruby/object:Tile
-    symbol: :b
+    symbol: 1
     flagged: false
     hidden: true
   - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: 4
-    flagged: false
-    hidden: true
-  - !ruby/object:Tile
-    symbol: :b
+    symbol: 1
     flagged: false
     hidden: true
